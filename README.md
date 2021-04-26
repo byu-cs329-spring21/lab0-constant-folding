@@ -65,7 +65,7 @@ x = 10;
 
 In the above example, the constant folding removed **dead code** that was not reachable on any input.
 
-For this lab, you don't need to remove the braces -- it is more difficult that is necessary. So the above should look like:
+For this lab, you don't need to remove the braces -- it is more difficult than is necessary. So the above should look like:
 
 ```java
 { x = 10;
@@ -150,7 +150,7 @@ Assume that any `NumberLiteral` instance is of type `int` always. This set of ex
 
 # Lab Requirements
 
-For each required application of constant folding:
+For each of the five required application of constant folding:
 
   0. Write a specification
   1. Write black-box tests that coincide with the specification
@@ -194,15 +194,7 @@ Create a pull request when the lab is done. Submit to Canvas the URL of the repo
 
 # Rubric
 
-  * **(40 points)** for each required constant folding not including `ParenthesizedExpressions`
-  * **(20 points)** for the system test framework for `ConstantFolding.fold`
-  * **(20 points)** for best practice (e.g., good names, no errors, no warnings, documented code, well grouped commits, appropriate commit messages, etc.)
-  
-Breakdown of **(40 points)** for each required folding technique 
-
-  * **(15 points)** for the specification
-  * **(15 points)** for the tests
-  * **(10 points)** for the implementation
+  see Canvas for details
   
 # Notes
 
